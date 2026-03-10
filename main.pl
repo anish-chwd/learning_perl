@@ -1,10 +1,9 @@
 
 #!/usr/bin/perl
-@number = ('2','4','6','8','10');
-print "@number";
-print "\n";
-@vowels =('a','e','i','o','u');
-print "@vowels";
+print"the first 100 natural numbers are : \n";
+@number = (1..100);
+print "@number \n";
+
 
 exit;
 
