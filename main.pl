@@ -1,9 +1,12 @@
 
 #!/usr/bin/perl
-print"the first 100 natural numbers are : \n";
-@number = (1..100);
-print "@number \n";
-
+$dna1 = 'ATGC';
+$dna2 = 'ATCT';
+$dna3 = $dna1.$dna2;
+print "$dna3\n";
+#or it can be done as 
+$dna4 = "$dna1$dna2";
+print ($dna4);
 
 exit;
 
