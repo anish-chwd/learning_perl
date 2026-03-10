@@ -1,16 +1,6 @@
 use strict;
 use warnings;
 
-print "my university name is: ";
-my $name = 'Anish';
-print "$name\n";
-
-
-print "my university name is: ";
-my $university = 'kiit university';
-print "$university\n";
-
-
 print "The only even prime number is: ";
 my $num = 2;
 print "$num\n";
