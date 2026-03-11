@@ -34,5 +34,13 @@ $total = $a+$g+$t+$c;
 $gc = $g + $c;
 $gc_percent = (($gc/$total)*100);
 print "The GC % is : $gc_percent %\n";
+
+#stability constraints
+if($gc_percent ge '50'){
+    print "Sequence is GC RICH & STABLE\n";
+}
+else{
+    print "Sequence is NOT GC RICH & STABLE\n"
+}
  
 exit;
